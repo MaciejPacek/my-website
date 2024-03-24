@@ -1,18 +1,17 @@
 <template>
    <div class="main">
-      <img src="./assets/images/background-img.png" alt="">
-      <div class="main-background">
-    </div>
-  </div>
+      <NavBar/>
+      <div class="background-gradient"></div>
+      <img class="image" src="./assets/images/background-img.png" alt="">
+   </div>
 </template>
 
 <script>
-
-//import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/navBar/navBar.vue'
 export default {
   name: 'App',
   components: {
-   // HelloWorld,
+    NavBar,
   }
 }
 </script>
